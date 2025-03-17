@@ -25,6 +25,9 @@ body {
   margin-right: 25px;
   font-family: var(--font-pacifico);
 }
+.nav-link:hover {
+  color: #fff;
+}
 
 .head-name {
   font-size: 20px;
@@ -38,6 +41,9 @@ body {
   color: var(--color-secondary);
   font-family: var(--font-space-mono);
   font-weight: bolder;
+}
+.head-name:hover {
+  color: #fff;
 }
 .hero {
   height: 90vh;
