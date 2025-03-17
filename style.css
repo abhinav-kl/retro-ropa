@@ -196,7 +196,7 @@ footer {
   }
 
   .img {
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: var(--color-secondary);
     border-radius: 10px;
@@ -227,8 +227,8 @@ footer {
   }
 
   .img-collection {
-    height: 500px;
-    width: 400px;
+    height: auto;
+    width: 100%;
     background-color: var(--color-secondary);
     border-radius: 10px;
   }
