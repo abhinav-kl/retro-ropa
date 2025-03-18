@@ -54,7 +54,6 @@ body {
   background-color: var(--color-secondary);
   border-radius: 10px;
 }
-
 .main-head {
   font-family: var(--font-pacifico);
   font-size: 200px;
@@ -63,7 +62,7 @@ body {
 }
 .sub-head {
   font-family: var(--font-verdana);
-  font-size: 90px;
+  font-size: 100px;
   padding-right: 90px;
   margin: 0;
 }
@@ -211,6 +210,7 @@ footer {
     font-size: 100px;
     margin-top: 50px;
     margin-left: 20px;
+    overflow-wrap: normal;
   }
   .sub-head {
     font-family: var(--font-verdana);
@@ -243,6 +243,8 @@ footer {
     color: var(--color-primary);
     border-radius: 10px;
     font-size: large;
+    width: 50%;
+    margin-left: 110px;
   }
   .contact-container {
     max-width: 600px;
