@@ -18,3 +18,8 @@ function typeWriterEffect(text, speed = 3) {
 }
 
 typeWriterEffect(words[0]); // Start the animation
+
+function messageSent(event) {
+  event.preventDefault();
+  alert('Message sent successfully!');
+}
