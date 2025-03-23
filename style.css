@@ -56,13 +56,13 @@ body {
   margin-top: 48px;
 }
 .main-head {
-  font-family: var(--font-pacifico);
+  font-family: var(--font-bitter);
   font-size: 200px;
   margin: 150px 0px 0px;
   padding: 0;
 }
 .sub-head {
-  font-family: var(--font-verdana);
+  font-family: var(--font-bitter);
   font-size: 100px;
   padding-right: 90px;
   margin: 0;
@@ -80,7 +80,7 @@ body {
   color: var(--color-primary);
 }
 #collections {
-  background-image: url('../assets/bg-image.webp');
+  background-image: url('images/bg-image.webp');
   background-repeat: cover no-repeat;
   background-size: contain;
   background-color: #1b1b1c;
@@ -175,7 +175,7 @@ footer {
   .nav-link {
     color: var(--color-secondary);
     letter-spacing: 5px;
-    margin-right: 25px;
+    margin-right: 5px;
     font-family: var(--font-pacifico);
   }
   .nav-link:hover {
@@ -194,6 +194,7 @@ footer {
     color: var(--color-secondary);
     font-family: var(--font-space-mono);
     font-weight: bolder;
+    padding-left: 20px;
   }
   .hero {
     height: 100vh;
@@ -208,15 +209,15 @@ footer {
   }
 
   .main-head {
-    font-family: var(--font-pacifico);
+    font-family: var(--font-bitter);
     font-size: 140px;
     margin-top: 50px;
     overflow-wrap: normal;
   }
   .sub-head {
-    font-family: var(--font-verdana);
+    font-family: var(--font-bitter);
     font-size: 70px;
-    padding-right: 50px;
+    padding-right: 25px;
     margin: 0;
   }
 
